@@ -1,13 +1,13 @@
-function reverseString(str) {
+function reverterString(str) {
     
-    var newString = "";
+    var novaString = "";
  
     
     for (var i = str.length - 1; i >= 0; i--) { 
-        newString += str[i]; // ou newString = newString + str[i];
+        novaString += str[i]; 
     }
    
-    return newString; 
+    return novaString; 
 }
  
-reverseString('World');
+reverterString('World');
